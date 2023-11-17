@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>HUGS & KISSES</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <!-- fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+     
+   </head>
+   <body>
+      <!-- header section start -->
+      <div class="header_section">
+         <div class="container-fluid">
+            <nav class="navbar navbar-light bg-light justify-content-between">
+               <div id="mySidenav" class="sidenav">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <a href="index.html">Home</a>
+                  <a href="products.html">Products</a>
+                  <a href="about.html">About</a>
+                  <a href="client.html">Client</a>
+                  <a href="contact.html">Contact</a>
+               </div>
+               <span class="toggle_icon" onclick="openNav()"><img src="images/toggle-icon.png"></span>
+               <a class="logo" href="index.html"><img src="images2/logo-01.png" width="200" height="70"></a></a>
+               <form class="form-inline ">
+                  <div class="login_text">
+                     <ul>
+                        <li><a href="#"><img src="images/user-icon.png"></a></li>
+                        <li><a href="#"><img src="images/bag-icon.png"></a></li>
+                        <li><a href="#"><img src="images/search-icon.png"></a></li>
+                     </ul>
+                  </div>
+               </form>
+            </nav>
+         </div>
+      </div>
+      <!-- header section end -->
+      <!-- banner section start -->
+      <div class="banner_section layout_padding">
+         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-sm-6">
+                           <h1 class="banner_taital">Homme <br>Skin</h1>
+                           <p class="banner_text">Experience the ultimate in men's skincare with our "Homme Skin" package. Crafted for the modern man who values a healthy and confident appearance, our products are specially designed to rejuvenate and invigorate your skin. From cleansers to moisturizers, this package is your go-to solution for maintaining a refreshed and revitalized complexion.</p>
+                           <div class="read_bt"><a href="#">Buy Now</a></div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="banner_img"><img src="images2/skincare male.png"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-sm-6">
+                           <h1 class="banner_taital">Femme <br>Skin</h1>
+                           <p class="banner_text">Our "Femme Skin" package is the epitome of luxury skincare for women. Tailored to meet the unique needs of women's skin, it offers a comprehensive range of products that cleanse, nourish, and enhance your natural beauty. Feel the transformative power of skincare as you unveil a radiant, confident you.</p>
+                           <div class="read_bt"><a href="#">Buy Now</a></div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="banner_img"><img src="images2/skincare male - Copy.png"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-sm-6">
+                           <h1 class="banner_taital">Homme <br>Fragrance</h1>
+                           <p class="banner_text">Elevate your personal style and leave a lasting impression with our "Homme Fragrance" package. A symphony of sophisticated scents awaits you, carefully curated to complement the dynamic and refined essence of the modern man. Choose from our exclusive range of colognes and aftershaves to make an unforgettable statement.</p>
+                           <div class="read_bt"><a href="#">Buy Now</a></div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="banner_img"><img src="images2/prfume men1.png"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-sm-6">
+                           <h1 class="banner_taital">Femme <br>Fragrance</h1>
+                           <p class="banner_text">Delve into a world of exquisite fragrances with our "Femme Fragrance" package. Each scent in our collection is a masterpiece designed to encapsulate the elegance and grace of the modern woman. From floral and fruity to woody and oriental notes, you'll find the perfect fragrance to accentuate your personality and charm.</p>
+                           <div class="read_bt"><a href="#">Buy Now</a></div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="banner_img"><img src="images2/perfume wom1.png"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="width: 80px;height: 80px;margin-top: 150px;" >
+               
+               </a>
+               <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" style="width: 80px;height: 80px; margin-top: 150px;"  >
+             
+               </a>
+         </div>
+      </div>
+      
+      <!-- banner section end -->
+      <!-- product section start -->
+    <div class="scrollable-container"></div>
+      <div class="product_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h1 class="product_taital">Our Products</h1>
+                  <p class="product_text">"Experience beauty and allure in every bottle. Our skincare and fragrance products redefine self-care and leave a lasting impression, enriching your daily routine with elegance and confidence."</p>
+               </div>
+            </div>
+            <div class="product_section_2 layout_padding">
+               <div class="row">
+                  <!-- Product 1 -->
+                  <div class="col-lg-4 col-sm-6">
+                     <div class="product_box">
+                        <!-- Content for Product 1 -->
+                        <h4 class="bursh_text">Body Scrub</h4>
+                              <p class="lorem_text">Renew your skin with our invigorating body scrub. Exfoliate and refresh, leaving your skin smooth and revitalized. </p>
+                              <img src="images2/scrm.png" class="image_1">
+                              <div class="btn_main">
+                                 <div class="buy_bt">
+                                    <ul>
+                                       <li class="active"><a href="#">Add to cart</a></li>
+                                       <li><a href="#">Buy Now</a></li>
+                                    </ul>
+                                 </div>
+                                 <h3 class="price_text">Price $30</h3>
+                              </div>
+                     </div>
+                  </div>
+      
+                  <!-- Product 2 -->
+                  <div class="col-lg-4 col-sm-6">
+                     <div class="product_box">
+                        <!-- Content for Product 2 -->
+                        <h4 class="bursh_text">Lotion</h4>
+                              <p class="lorem_text">Our nourishing lotion for men provides long-lasting hydration. It's the perfect daily companion for soft well-moisturized skin. </p>
+                              <img src="images2/lotm.png" class="image_1">
+                              <div class="btn_main">
+                                 <div class="buy_bt">
+                                    <ul>
+                                       <li class="active"><a href="#">Add to cart</a></li>
+                                       <li><a href="#">Buy Now</a></li>
+                                    </ul>
+                                 </div>
+                                 <h3 class="price_text">Price $30</h3>
+                              </div>
+                     </div>
+                  </div>
+      
+                  <!-- Product 3 -->
+                  <div class="col-lg-4 col-sm-6">
+                     <div class="product_box">
+                        <!-- Content for Product 3 -->
+                        <h4 class="bursh_text">Face Cream</h4>
+                              <p class="lorem_text">Our face cream for men combines power and elegance. Reduce signs of aging and enhance your natural charm with this revitalizing formula. </p>
+                              <img src="images2/crm.png" class="image_1">
+                              <div class="btn_main">
+                                 <div class="buy_bt">
+                                    <ul>
+                                       <li class="active"><a href="#">Add to cart</a></li>
+                                       <li><a href="#">Buy Now</a></li>
+                                    </ul>
+                                 </div>
+                                 <h3 class="price_text">Price $30</h3>
+                              </div>
+                     </div>
+                  </div>
+               </div>
+      
+               <div class="row">
+                  <!-- Product 4 -->
+                  <div class="col-lg-4 col-sm-6">
+                     <div class="product_box">
+                        <!-- Content for Product 4 -->
+                        <h4 class="bursh_text">Body Scrub</h4>
+                              <p class="lorem_text">Unveil a radiant glow with our exfoliating body scrub for women. Reveal your inner beauty with every use and have  a glowing skin </p>
+                              <img src="images2/scrf.png" class="image_1">
+                              <div class="btn_main">
+                                 <div class="buy_bt">
+                                    <ul>
+                                       <li class="active"><a href="#">Add to cart</a></li>
+                                       <li><a href="#">Buy Now</a></li>
+                                    </ul>
+                                 </div>
+                                 <h3 class="price_text">Price $30</h3>
+                              </div>
+                     </div>
+                  </div>
+      
+                  <!-- Product 5 -->
+                  <div class="col-lg-4 col-sm-6">
+                     <div class="product_box">
+                        <!-- Content for Product 5 -->
+                        <h4 class="bursh_text">Lotion</h4>
+                              <p class="lorem_text">Our luxurious lotion for women wraps your skin in silky softness, leaving it feeling pampered and radiant. </p>
+                              <img src="images2/lotf.png" class="image_1">
+                              <div class="btn_main">
+                                 <div class="buy_bt">
+                                    <ul>
+                                       <li class="active"><a href="#">Add to cart</a></li>
+                                       <li><a href="#">Buy Now</a></li>
+                                    </ul>
+                                 </div>
+                                 <h3 class="price_text">Price $30</h3>
+                              </div>
+                     </div>
+                  </div>
+      
+                  <!-- Product 6 -->
+                  <div class="col-lg-4 col-sm-6">
+                     <div class="product_box">
+                        <!-- Content for Product 6 -->
+                        <h4 class="bursh_text">Face Cream</h4>
+                              <p class="lorem_text">Experience the magic of timeless beauty with our face cream for women. Nourish your skin, reduce fine lines, and glow with confidence. </p>
+                              <img src="images2/crf.png" class="image_1">
+                              <div class="btn_main">
+                                 <div class="buy_bt">
+                                    <ul>
+                                       <li class="active"><a href="#">Add to cart</a></li>
+                                       <li><a href="#">Buy Now</a></li>
+                                    </ul>
+                                 </div>
+                                 <h3 class="price_text">Price $30</h3>
+                              </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="seemore_bt"><a href="products.html">See More</a></div>
+            </div>
+         </div>
+      </div>
+      <!-- product section end -->
+      <!-- about section start -->
+      <div class="about_section layout_padding">
+         <div class="container">
+            <div class="about_section_main">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="about_taital_main">
+                        <h1 class="about_taital">Our Brand</h1>
+                        <p class="about_text">"Hugs and Kisses" is a brand dedicated to redefining beauty and self-care through a warm embrace of natural ingredients and a touch of romance. We believe that skincare should be an act of love and self-kindness, just like the affectionate gesture of a hug or a kiss.
+
+                           Our brand is all about celebrating the beauty that comes from within and enhancing it with our thoughtfully crafted cosmetic products. We bring a harmonious blend of science and nature, infusing every product with ingredients that nurture and care for your skin.
+                           
+                           At "Hugs and Kisses," we are committed to delivering high-quality skincare solutions that cater to a diverse range of skin types and concerns. Our products are designed to make you feel pampered, confident, and radiant, just as you deserve.</p>
+                        <div class="readmore_bt"><a href="about.html">Read More</a></div>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div><img src="images2/models-01.png" class="image_3"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- about section end -->
+      <!-- customer section start -->
+      <div class="customer_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h1 class="customer_taital">What says customers</h1>
+               </div>
+            </div>
+            <div id="main_slider" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <div class="client_section_2">
+                        <div class="client_main">
+                           <div class="client_left">
+                              <div class="client_img"><img src="images2/c1.png"></div>
+                           </div>
+                           <div class="client_right">
+                              <h3 class="name_text">Kevin</h3>
+                              <p class="dolor_text">I can't Believe my eyes, the skin care kit was really nourishing and even smells nice, with the perfume, im ready for the day with HUGS & KISSES</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="client_section_2">
+                        <div class="client_main">
+                           <div class="client_left">
+                              <div class="client_img"><img src="images2/c2.png"></div>
+                           </div>
+                           <div class="client_right">
+                              <h3 class="name_text">Ranaya</h3>
+                              <p class="dolor_text">This product line is awsome,it made my skin clean and more good loiking  </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="client_section_2">
+                        <div class="client_main">
+                           <div class="client_left">
+                              <div class="client_img"><img src="images2/c3.png"></div>
+                           </div>
+                           <div class="client_right">
+                              <h3 class="name_text">Ashanee</h3>
+                              <p class="dolor_text">“The best foundation you can wear is glowing, healthy skin.” hugs and kisses made my life beautiful</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+               <i class="fa fa-angle-left"></i>
+               </a>
+               <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+               <i class="fa fa-angle-right"></i>
+               </a>
+            </div>
+         </div>
+      </div>
+      <!-- customer section end -->
+      <!-- contact section start -->
+      <div class="contact_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <h1 class="contact_taital">Get In Touch</h1>
+                  <p class="contact_text">We'd love to hear from you! Whether you have questions, feedback, or simply want to connect, we're here to help</p>
+               </div>
+               <div class="col-md-6">
+                  <div class="contact_main">
+                     <div class="contact_bt"><a href="contact.html">Contact Us</a></div>
+                     <div class="newletter_bt"><a href="#">News letter</a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="map_main">
+            <div class="map-responsive">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126743.58638747474!2d79.77380309228512!3d6.922001981219109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae253d10f7a7003%3A0x320b2e4d32d3838d!2sColombo!5e0!3m2!1sen!2slk!4v1700229113857!5m2!1sen!2slk"  width="600" height="400" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+            </div>
+         </div>
+      </div>
+      <!-- contact section end -->
+      <!-- footer section start -->
+      <div class="footer_section layout_padding">
+         <div class="container">
+            <div class="footer_logo"><a href="index.html"><img src="images2/hnk-28.png"></a></div>
+            <div class="contact_section_2">
+               <div class="row">
+                  <div class="col-sm-4">
+                     <h3 class="address_text">Contact Us</h3>
+                     <div class="address_bt">
+                        <ul>
+                           <li>
+                              <a href="#">
+                              <i class="fa fa-map-marker" aria-hidden="true"></i><span class="padding_left10">Address : Hugs and Kisses, colombo 05</span>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                              <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left10">Call : +01 1234567890</span>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                              <i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left10">Email : hugsandkisses@gmail.com</span>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="footer_logo_1"><a href="index.html"><img src="images2/logo2.png"></a></div>
+                     <p class="dummy_text">"Hugs and Kisses" invites you to experience skincare as an act of affection and self-indulgence, promising products that provide comfort, confidence, and that extra touch of love your skin deserves. Discover the embrace of beauty and the magic of skincare with us today.</p>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="main">
+                        <h3 class="address_text">Best Products</h3>
+                        <p class="ipsum_text">Hugs and kisses Homme <br> Hugs and kisses Femme <br> Hugs and kisses Gift pack</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="social_icon">
+               <ul>
+                  <li>
+                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                     <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <!-- footer section end -->
+      <!-- copyright section start -->
+      <div class="copyright_section">
+         <div class="container">
+            <p class="copyright_text">2023 All Rights Reserved. Design by Group H&K</a></p>
+         </div>
+      </div>
+    </div>
+      <!-- copyright section end -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <!-- javascript --> 
+      <script src="js/owl.carousel.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>  
+      <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+      <script>
+         function openNav() {
+           document.getElementById("mySidenav").style.width = "100%";
+         }
+         
+         function closeNav() {
+           document.getElementById("mySidenav").style.width = "0";
+         }
+      </script> 
+   </body>
+</html>
